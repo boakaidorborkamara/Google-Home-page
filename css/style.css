@@ -98,6 +98,21 @@ input{
 input:hover{
     box-shadow: 1px 1px 5px rgb(216, 214, 214);
 }
+#btn_area{
+    padding: 5px;
+    /* background-color: red; */
+    height: 20%;
+}
+#btn_area button{
+    padding:10px;
+    border: none;
+}
+
+#btn_area button:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
 
 footer{
     display: flex;
