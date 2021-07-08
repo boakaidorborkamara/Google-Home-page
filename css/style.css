@@ -59,3 +59,24 @@ nav{
     border: none;
     outline: none;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    height: 60vh;
+}
+
+main #search-section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: red;
+}
+
+img{
+    width: 80%;
+}
