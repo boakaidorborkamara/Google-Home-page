@@ -10,33 +10,19 @@ body{
 /* navagation bar styling starts */
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
     /* background-color: teal; */
     padding: 20px 0px 20px 0px;
     height: 10vh;
 }
 
-#left-side-of-nav{
-    width: 50%;
-    /* background-color: yellow; */
-    display: flex;
-}
-
-#left-side-of-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center; 
-}
-
-
-#left-side-of-nav ul li{
-    list-style-type: none;
-    margin-left: 15px;
-}
-
 #right-side-of-nav{
-    width: 50%;
+    display: flex;
+}
+
+#right-side-of-nav a{
+    color: black;
 }
 
 #right-side-of-nav ul{
@@ -52,68 +38,79 @@ nav{
     margin-left: 15px;
 }
 
-
-#right-side-of-nav ul li button{
-    padding: 5px 7px 5px 7px;
-    background-color: blue;
-    color: white;
-    border: none;
-    outline: none;
+#profile-pic{
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin-right: 25px;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    /* background-color: yellow; */
+    padding-top: 20px;
     height: 80vh;
 }
 
-main #search-section{
+#logo{
+    width: 15em;
+    margin-bottom: 20px;
+}
+
+#search-box{
     display: flex;
-    flex-direction: column;
     align-items:center;
-    justify-content: center;
-    /* background-color: red; */
-}
-
-img{
-    width: 80%;
-}
-
-input{
-    width: 40vw;
-    padding: 15px 20px 15px 20px;
-    /* background-color: brown; */
-    display: flex;
-    border-radius: 15px 15px 15px 15px;
+    justify-content: space-evenly;
+    border-radius: 50px 50px 50px 50px;
     border: 1px solid rgb(231, 227, 227);
-    outline: rgb(238, 234, 234);
-    margin-bottom: 30px;
-    font-weight: bold;
-    margin-top: 20px;
+    width: 40vw;
+    margin-bottom: 20px;
 }
 
-input:hover{
-    box-shadow: 1px 1px 5px rgb(216, 214, 214);
+#search-box:hover{
+    box-shadow: 1px 1px 8px rgb(206, 203, 203);
 }
+
+
+#search-box input{
+    padding: 15px 20px 15px 20px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+#search-icon{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+#microphone{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+
 #btn_area{
     padding: 5px;
-    /* background-color: red; */
     height: 20%;
+    display: flex;
 }
+
 #btn_area button{
     padding:10px;
     border: none;
+    border: 1px solid white;
+    margin-right: 5px;
 }
 
 #btn_area button:hover{
     border: 1px solid gray;
     cursor: pointer;
-
 }
 
+/* footer styling starts  */
 footer{
     display: flex;
     justify-content:space-between;
@@ -139,4 +136,13 @@ footer{
 #right-side-of-footer ul li{
     list-style: none;
     margin-left: 20px;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
