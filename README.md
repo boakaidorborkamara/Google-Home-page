@@ -1,2 +1,2 @@
-# Google-Home-page
-Google Home page, first assignment from the Ordin Project
+# Google-Home-page Clone
+Google Home page clone, first assignment from the Ordin Project
